@@ -1,0 +1,48 @@
+
+#photo {
+    border: 2px solid blue;
+}
+
+
+h1 {
+    color: blue; /* Original rule */
+    color: #721817; /* New rule */
+}
+
+/* Rule for all <h2> headings */
+h2 {
+    color: grey; /* Original rule */
+    color: #721817; /* New rule */
+}
+
+/* Rule for divider elements */
+div {
+    margin: 4px;
+}
+
+
+body {
+    background-color: #E0E0E2;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+h2 > span {
+    color: #FA9F42;
+    font-size: 0.75em;
+}
+
+
+#copyright {
+    padding-top: 12px;
+    font-size: 0.75em;
+}
